@@ -1,0 +1,12 @@
+[Unit]
+Description=Script to send crosswords to remarkable
+After=network.target network-online.target dbus.socket
+Wants=remarkable-crossword.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/bin/remarkable-crosswords.sh
+
+[Install]
+WantedBy=default.target
+
