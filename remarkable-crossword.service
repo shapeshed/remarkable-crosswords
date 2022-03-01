@@ -5,7 +5,7 @@ Wants=remarkable-crossword.timer
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/bin/remarkable-crosswords.sh
+ExecStart=/usr/local/bin/remarkable-crosswords.sh
 
 [Install]
 WantedBy=default.target
