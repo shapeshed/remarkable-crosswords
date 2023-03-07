@@ -9,8 +9,9 @@ Currently supported
 
 ## Prerequisites
 
-* [p2r][4]
 * [rmapi][5]
+* [texlive-core][6] which provides `pdfcrop`
+* [ghostcript][7]
 
 ## Installation
 
@@ -26,3 +27,5 @@ Currently supported
 [3]: https://www.theguardian.com/crosswords/series/quick
 [4]: https://github.com/GjjvdBurg/paper2remarkable
 [5]: https://github.com/juruen/rmapi
+[6]: https://archlinux.org/packages/extra/any/texlive-core/
+[7]: https://archlinux.org/packages/extra/x86_64/ghostscript/
